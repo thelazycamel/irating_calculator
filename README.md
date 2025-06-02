@@ -32,13 +32,20 @@ Or install it yourself as:
     ]
 
   calc = IratingCalculator.new(drivers)
+
   calc.calculate!
+
   calc.sof
+
   results = calc.irating_results
 
   driver = results.first
+
   driver.expected_score
+
   driver.expected_position
+
   driver.irating_change
+
   driver.new_irating
 
